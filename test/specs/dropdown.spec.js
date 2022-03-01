@@ -6,6 +6,6 @@ describe('My dropdown menu application', () => {
 
         await expect(dropdownPage.dropdownMenu).toBeExisting();
         await (dropdownPage.dropdownMenu).click();
-        
+        await browser.pause(2000);
     });
 });

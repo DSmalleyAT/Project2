@@ -13,6 +13,6 @@ describe('My checkbox application', () => {
 
         await expect(ChexPage.checkTwo).toBeExisting();
         await (ChexPage.checkTwo).click();
-        
+        await browser.pause(2000);
     });
 });
